@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.result-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.result-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result-disease {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.additional-info {
+    font-size: 18px;
+}
